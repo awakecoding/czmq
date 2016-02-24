@@ -90,10 +90,12 @@ CZMQ_EXPORT char *
 
 #endif // CZMQ_BUILD_DRAFT_API
 //  @ignore
+#if 0
 CZMQ_EXPORT int
     zstr_sendf (void *dest, const char *format, ...) CHECK_PRINTF (2);
 CZMQ_EXPORT int
     zstr_sendfm (void *dest, const char *format, ...) CHECK_PRINTF (2);
+#endif
 //  @end
 
 
@@ -106,7 +108,7 @@ CZMQ_EXPORT char *
     zstr_recv_nowait (void *source);
 
 //  Compiler hints
-CZMQ_EXPORT int zstr_sendf (void *dest, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zstr_sendf (void *dest, const char *format, ...) CHECK_PRINTF (2);
 
 #ifdef __cplusplus
 }

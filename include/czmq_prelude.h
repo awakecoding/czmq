@@ -560,7 +560,7 @@ safe_malloc (size_t size, const char *file, unsigned line)
 #endif
 
 //  Lets us write code that compiles both on Windows and normal platforms
-#if !defined (__WINDOWS__)
+#if !defined (__WINDOWS__) && !defined(INVALID_SOCKET)
 typedef int SOCKET;
 #   define closesocket      close
 #   define INVALID_SOCKET   -1

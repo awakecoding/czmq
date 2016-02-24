@@ -166,6 +166,7 @@ CZMQ_EXPORT void
     zconfig_test (bool verbose);
 
 //  @ignore
+#if 0
 CZMQ_EXPORT void
     zconfig_putf (zconfig_t *self, const char *path, const char *format, ...) CHECK_PRINTF (3);
 CZMQ_EXPORT void
@@ -174,14 +175,17 @@ CZMQ_EXPORT void
     zconfig_set_comment (zconfig_t *self, const char *format, ...) CHECK_PRINTF (2);
 CZMQ_EXPORT int
     zconfig_savef (zconfig_t *self, const char *format, ...) CHECK_PRINTF (2);
+#endif
 //  @end
 
+#if 0
 //  Self test of this class
 CZMQ_EXPORT void
     zconfig_test (bool verbose);
 
 //  Compiler hints
 CZMQ_EXPORT void zconfig_set_value (zconfig_t *self, const char *format, ...) CHECK_PRINTF (2);
+#endif
 
 #ifdef __cplusplus
 }

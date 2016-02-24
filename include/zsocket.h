@@ -95,10 +95,10 @@ CZMQ_EXPORT void
 //  @end
 
 //  Compiler hints
-CZMQ_EXPORT int zsocket_bind (void *self, const char *format, ...) CHECK_PRINTF (2);
-CZMQ_EXPORT int zsocket_unbind (void *self, const char *format, ...) CHECK_PRINTF (2);
-CZMQ_EXPORT int zsocket_connect (void *self, const char *format, ...) CHECK_PRINTF (2);
-CZMQ_EXPORT int zsocket_disconnect (void *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zsocket_bind (void *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zsocket_unbind (void *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zsocket_connect (void *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zsocket_disconnect (void *self, const char *format, ...) CHECK_PRINTF (2);
 
 //  Emulation of widely-used 2.x socket options
 CZMQ_EXPORT void zsocket_set_hwm (void *self, int hwm);

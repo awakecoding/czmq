@@ -124,8 +124,8 @@ CZMQ_EXPORT void
 
 #endif // CZMQ_BUILD_DRAFT_API
 //  @ignore
-CZMQ_EXPORT void
-    zcert_set_meta (zcert_t *self, const char *name, const char *format, ...) CHECK_PRINTF (3);
+//CZMQ_EXPORT void
+//    zcert_set_meta (zcert_t *self, const char *name, const char *format, ...) CHECK_PRINTF (3);
 //  @end
 
 

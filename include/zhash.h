@@ -186,8 +186,8 @@ CZMQ_EXPORT void
     zhash_test (bool verbose);
 
 //  @ignore
-CZMQ_EXPORT void
-    zhash_comment (zhash_t *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT void
+//    zhash_comment (zhash_t *self, const char *format, ...) CHECK_PRINTF (2);
 //  @end
 
 

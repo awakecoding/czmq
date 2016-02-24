@@ -64,7 +64,7 @@ CZMQ_EXPORT void
     zclock_log (const char *format, ...);
 
 //  Compiler hints
-CZMQ_EXPORT void zclock_log (const char *format, ...) CHECK_PRINTF (1);
+//CZMQ_EXPORT void zclock_log (const char *format, ...) CHECK_PRINTF (1);
 
 #ifdef __cplusplus
 }

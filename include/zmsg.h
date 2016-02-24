@@ -225,10 +225,10 @@ CZMQ_EXPORT void
 
 #endif // CZMQ_BUILD_DRAFT_API
 //  @ignore
-CZMQ_EXPORT int
-    zmsg_pushstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
-CZMQ_EXPORT int
-    zmsg_addstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int
+//    zmsg_pushstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int
+//    zmsg_addstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
 //  @end
 
 
@@ -269,8 +269,8 @@ CZMQ_EXPORT void
     zmsg_fprint (zmsg_t *self, FILE *file);
 
 //  Compiler hints
-CZMQ_EXPORT int zmsg_addstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
-CZMQ_EXPORT int zmsg_pushstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zmsg_addstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
+//CZMQ_EXPORT int zmsg_pushstrf (zmsg_t *self, const char *format, ...) CHECK_PRINTF (2);
 
 #ifdef __cplusplus
 }
